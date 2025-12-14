@@ -11,7 +11,7 @@ const Hero = () => {
                 <img src={dj} alt="DJ Night" />
                 <div className='hero-content'>
                  
-                     <p>Dj Event Slots are Freee Book Right Now</p>
+                     <p>Dj Event Slots are Freee Book Right Now Booking fast</p>
                       <button className='btn' ><Link to='/pricing' > Price Card </Link></button>
                        <button className='btn'><Link to='/pricing' > Details    </Link></button>
                       <button className='btn'> <Link to='/booking' > Book The Evvent </Link> </button>
