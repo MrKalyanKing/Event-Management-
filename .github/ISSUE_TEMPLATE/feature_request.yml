@@ -1,0 +1,26 @@
+name: ✨ Feature Request
+description: Suggest a new feature
+title: "[FEATURE]: "
+labels: ["feature"]
+body:
+  - type: textarea
+    attributes:
+      label: Feature Description
+      validations:
+        required: true
+
+  - type: textarea
+    attributes:
+      label: Problem it Solves
+      validations:
+        required: true
+
+  - type: textarea
+    attributes:
+      label: Proposed Solution
+      validations:
+        required: true
+
+  - type: textarea
+    attributes:
+      label: Alternatives Considered

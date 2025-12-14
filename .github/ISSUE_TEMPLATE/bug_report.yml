@@ -1,0 +1,41 @@
+name: 🐞 Bug Report
+description: Report a reproducible bug
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: Bug Description
+      description: Clearly describe the bug
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions
+      placeholder: |
+        1. Go to...
+        2. Click on...
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      validations:
+        required: true
+
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+      validations:
+        required: true
+
+  - type: input
+    attributes:
+      label: Environment
+      placeholder: Docker / Node version / OS
+    validations:
+      required: true
