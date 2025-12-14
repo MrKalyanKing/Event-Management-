@@ -1,30 +1,47 @@
-## Description
-Explain what this PR does and why it is needed.
+# Pull Request Template
 
-## Type of Change
-- [ ] Bug fix (fix/* → dev)
-- [ ] New feature (feature/* → dev)
+## 📖 Description
+Provide a clear explanation of:
+- What this PR does  
+- Why it is needed (problem solved, feature added, etc.)
 
-## Related Issue
+---
+
+## 🔄 Type of Change
+Select one:
+- [ ] Bug fix (branch: `fix/*` → `dev`)
+- [ ] New feature (branch: `feature/*` → `dev`)
+
+---
+
+## 🪧 Related Issue
 Closes #ISSUE_NUMBER
 
-## Branch Checklist
-- [ ] Source branch follows naming convention (fix/* or feature/*)
+---
+
+## ✅ Branch Checklist
+- [ ] Source branch follows naming convention (`fix/*` or `feature/*`)
 - [ ] Target branch is `dev`
 - [ ] No direct changes to `main`
 
-## Testing
-Describe how you tested this change.
-- [ ] Tested locally with Docker
+---
+
+## 🧪 Testing
+Explain how you tested this change:
+- [ ] Tested locally (e.g., with Docker)
 - [ ] Bug reproduced before fix
 - [ ] Bug resolved after fix
 
-## Code Quality Checklist
+---
+
+## 🧹 Code Quality Checklist
 - [ ] Code follows project standards
 - [ ] No unnecessary changes
 - [ ] No console logs
 - [ ] No hardcoded secrets
-- [ ] Error handling added where required
+- [ ] Proper error handling added
 
-## Screenshots (if UI change)
-Attach screenshots or recordings.
+---
+
+## 🎨 Screenshots (if UI change)
+Attach screenshots or recordings here.
